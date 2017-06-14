@@ -135,13 +135,13 @@ class LostCities(CardGame):
         
     def playOneTurn(self, player):
         self.placeCard(player)
-  ##      self.pick(player)
+  ##      self.pickCard(player)
 
     def placeCard(self, turn_place):
         pickedCard = self.hands[turn_place].pop()
         
 ##
-##    def pick(self, turn_pick):
+##    def pickCard(self, turn_pick):
 ##        ##
     
     def printGame(self):
